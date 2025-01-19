@@ -100,7 +100,7 @@ nav {
     border-radius: 10px;
     margin: 0 auto;
 }
-@media screen and (max-width: 574px) {
+@media screen and (max-width: 600px) {
     html {
         font-size: 12px;
     }
