@@ -46,6 +46,12 @@ header {
     color: #FF900E;
     background-color: #fff;
 }
+
+.title {
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--dark-1);
+}
                                                  /*           Nav                  */
 nav {
     justify-content: space-between;
@@ -131,6 +137,80 @@ nav {
     line-height: 20px;
     margin-bottom: 40px;
 }
+
+/* facts */
+.facts-section p {
+    color: var(--dark-3);
+    width: 600px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+.fact-cards {
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+}
+.fact-card {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #FF900E;
+    max-width: 220px;
+    height: 240px;
+    border-radius: 9px;
+}
+.fact-heading {
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.fact-sub-heading {
+    color: var(--dark-3);
+    font-size: 1.2rem;
+}
+
+/* sponspor   section */
+.sponspor-text {
+    width: 545px;
+    margin: 50px auto;
+    text-align: center;
+}
+.sponspor-text h3 {
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.sponspor-text p {
+    color: var(--dark-3);
+}
+.sponspor-company {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-bottom: 140px;
+}
+.sponspor-company img {
+    filter: grayscale(100%);
+}
+/* footer */
+footer {
+    max-width: 1500px;
+    height: 80px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(255, 244, 231, 1);
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 220px;
+}
+footer > p {
+    font-size: 1.2rem;
+    color: var(--dark-3);
+}
+
+
+
+
+
+
+
 @media screen and (max-width: 600px) {
     html {
         font-size: 12px;
@@ -174,16 +254,23 @@ nav {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width: 360px;
     }
     .features-content h3 {
         text-align: center; 
         margin-top: 30px;
         margin-bottom: 18px;
+        width: 360px;
     }
     .features-content p {
         text-align: center; 
-        width: 400px;
-        margin: 0 auto;
         margin-bottom: 20px;
+        width: 360px;
+    }
+    .facts-section p {
+        width: 300px;
+    }
+    .fact-cards {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
