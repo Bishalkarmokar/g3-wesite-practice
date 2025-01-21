@@ -138,6 +138,56 @@ nav {
     margin-bottom: 40px;
 }
 
+/* features you will enjoy */
+.features-enjoy {
+    gap: 120px;
+}
+.features-enjoy-text h3 {
+    border-left: 5px solid #FF900E;
+    padding-left: 22px;
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--dark-1);
+}
+.features-enjoy-text p {
+    color: var(--dark-3);
+    font-size: 1.1rem;
+    margin: 40px 0;
+    line-height: 28px;
+}
+.text-card {
+    padding: 30px;
+    box-shadow: 0 20px 0 rgba(0, 0, 0, 0.02);
+}
+.text-card h4 {
+    font-size: 2rem;
+    color: var(--dark-1);
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.text-card p {
+    margin: 5px 0;
+    color: var(--dark-3);
+    line-height: 28px;
+}
+.button-under-img {
+    background-color: #FF900E;
+    color: #fff;
+    padding: 46px 42px;
+    border: none;
+    border-radius: 8px;
+    margin-top: -120px;
+    margin-left: -90px;
+}
+.button-under-img h4 {
+    font-size: 3.8rem;
+    font-weight: 800;
+}
+.button-under-img h5 {
+    font-size: 1.4rem;
+}
+
+
 /* facts */
 .facts-section p {
     color: var(--dark-3);
